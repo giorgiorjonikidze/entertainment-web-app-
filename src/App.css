@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+    font-family: "outfit";
+    src: url("./assets/fonts/Outfit/Outfit-VariableFont_wght.ttf");
+}
+
+body{ 
+    font-family: "outfit";
+    background-color: #10141E;
+}
